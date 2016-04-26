@@ -65,22 +65,7 @@ Main components
   text-align: center;
   background: #303e49;
 }*/
-/*header h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
-}
-@media only screen and (min-width: 1170px) {
-  header {
-    height: 300px;
-    line-height: 300px;
-  }
-  header h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
-}
-*/
+/**/
 #cd-timeline {
   position: relative;
   padding: 2em 0;
@@ -137,7 +122,22 @@ Main components
 
 .cd-timeline-img {
   position: absolute;
-  top: 0;
+  top: 0;header h1 {
+  color: white;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+@media only screen and (min-width: 1170px) {
+  header {
+    height: 300px;
+    line-height: 300px;
+  }
+  header h1 {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+
   left: 0;
   width: 40px;
   height: 40px;
