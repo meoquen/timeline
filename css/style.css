@@ -16,15 +16,15 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
-  color: #7f8c97;
-  background-color: #e9f0f5;
+  font-family: "Courier New", serif;
+  color: #474646;
+  background-color: #fbfbff;
 }
 
 a {
-  color: #acb7c0;
+  color: #848079;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Courier New", serif;
 }
 
 img {
@@ -32,7 +32,7 @@ img {
 }
 
 h1, h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Courier New", serif;
   font-weight: bold;
 }
 
@@ -44,7 +44,7 @@ Modules - reusable parts of our design
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  max-width: 1170px;
+  max-width: 980px;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -59,13 +59,13 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
-header {
+/*header {
   height: 200px;
   line-height: 200px;
   text-align: center;
   background: #303e49;
-}
-header h1 {
+}*/
+/*header h1 {
   color: white;
   font-size: 18px;
   font-size: 1.125rem;
@@ -80,7 +80,7 @@ header h1 {
     font-size: 1.5rem;
   }
 }
-
+*/
 #cd-timeline {
   position: relative;
   padding: 2em 0;
